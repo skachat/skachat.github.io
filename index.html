@@ -11,7 +11,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
-<meta property="og:site_name" content="Читайте Блоги криптовалют!">
+<meta property="og:site_name" content="Phoenix Miner">
 <meta property="og:title" content="Скачать Phoenix Miner">
 <meta property="og:url" content="https://skachat.cc/">
 
@@ -68,7 +68,7 @@
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      "name": "skachat.cc",
+      "name": "Phoenix Miner",
       "url": "https://skachat.cc",
       "sameAs": ["https://www.facebook.com/xmrltc","https://www.facebook.com/ethltc","https://www.facebook.com/btcidol"]
     }
@@ -87,7 +87,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Читайте Блоги криптовалют! Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Phoenix Miner Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -192,7 +192,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <i class="fab fab fa-ethereum"></i><a class="site-title" href="/">skachat.cc</a>
+        <i class="fab fab fa-ethereum"></i><a class="site-title" href="/">Phoenix Miner</a>
         <ul class="visible-links">
 <li class="masthead__menu-item">
 			  <a href="/#start">Начать</a>
@@ -204,13 +204,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			  <a href="/#download">Скачать</a>
             </li>
 </ul>
-        
-        <button class="search__toggle" type="button">
-          <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
-        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Выпадающее меню</span>
@@ -462,14 +455,6 @@ PhoenixMiner.exe -epool eu1.ethermine.org:4444 -worker <span class="phe-grn">И�
     </div>
 
     
-      <div class="search-content">
-        <div class="search-content__inner-wrap">
-<div class="search-searchbar"></div>
-    <div class="search-hits"></div>
-</div>
-
-      </div>
-    
 
     <div class="page__footer">
       <footer>
@@ -506,7 +491,7 @@ PhoenixMiner.exe -epool eu1.ethermine.org:4444 -worker <span class="phe-grn">И�
   -->
 </div>
 
-<div class="page__footer-copyright">© 2020 skachat.cc. </div>
+<div class="page__footer-copyright">© 2020 Phoenix Miner. </div>
 <div class="page__footer-copyright">
 <p>Сайт сделан в студии behance</p>
 
@@ -522,60 +507,6 @@ PhoenixMiner.exe -epool eu1.ethermine.org:4444 -worker <span class="phe-grn">И�
   <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
 
 
-<!-- Including InstantSearch.js library and styling -->
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
-
-<script>
-// Instanciating InstantSearch.js with Algolia credentials
-const search = instantsearch({
-  appId: 'F9097Q90IB',
-  apiKey: 'd8ddaffddf4f140f608aca355e843e91',
-  indexName: 'victor',
-  searchParameters: {
-    restrictSearchableAttributes: [
-      'title',
-      'content'
-    ]
-  }
-});
-
-const hitTemplate = function(hit) {
-  const url = hit.url;
-  const title = hit._highlightResult.title.value;
-  const content = hit._highlightResult.html.value;
-
-  return `
-    <div class="list__item">
-      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-        <h2 class="archive__item-title" itemprop="headline"><a href="${url}">${title}</a></h2>
-        <div class="archive__item-excerpt" itemprop="description">${content}</div>
-      </article>
-    </div>
-  `;
-}
-
-// Adding searchbar and results widgets
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '.search-searchbar',
-    poweredBy: true,
-    placeholder: 'Введите поисковый запрос...'
-  })
-);
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '.search-hits',
-    templates: {
-      item: hitTemplate
-    }
-  })
-);
-
-// Starting the search
-search.start();
-</script>
 
 
 
