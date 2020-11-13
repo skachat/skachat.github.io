@@ -4,4 +4,10 @@ var store = [{
         "tags": [],
         "url": "https://skachat.cc/miners/phoenix-miner-5.1c/",
         "teaser": "https://skachat.cc/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Скачать PhoenixMiner 5.2c AMD/NVIDIA Ethereum [2020]",
+        "excerpt":"PhoenixMiner 5.2c - стабильная версия, решающая ошибки 4 ГБ видеокарт в Windows 10. Скачать и настроить программу Ядра для графических процессоров Hawaii не поддерживают команду -daglim и не будут работать с ETH или ETC. Планируется их модифицировать, но это будет непросто, поскольку они отстают на несколько поколений. Важное примечание: мы...","categories": ["Miners"],
+        "tags": [],
+        "url": "https://skachat.cc/miners/phoenix-miner-5.2c/",
+        "teaser": "https://skachat.cc/assets/images/thumbs/500x300.png"
       },]
