@@ -29,9 +29,15 @@ var store = [{
         "url": "https://skachat.cc/miners/phoenix-miner-5.3b/",
         "teaser": "https://skachat.cc/assets/images/thumbs/500x300.png"
       },{
-        "title": "Скачать PhoenixMiner 5.3b AMD/NVIDIA Ethereum [2020]",
-        "excerpt":"PhoenixMiner 5.3b - скачать и настроить программу последней версии для AMD+NVIDIA Где скачать PhoenixMiner Вы можете скачать PhoenixMiner на его официальной странице. Или вы можете выбрать более простой способ и скачать последнюю версию из этого архива. Пароль к архиву - phoenix. Скачать с сайта Скачать с Mega Версия для Linux...","categories": ["Miners"],
+        "title": "Скачать PhoenixMiner 5.4b AMD/NVIDIA Ethereum [2020]",
+        "excerpt":"PhoenixMiner 5.4b - скачать и настроить программу последней версии для AMD+NVIDIA Где скачать PhoenixMiner Вы можете скачать PhoenixMiner на его официальной странице. Или вы можете выбрать более простой способ и скачать последнюю версию из этого архива. Пароль к архиву - phoenix. Скачать с сайта Скачать с Mega Версия для Linux...","categories": ["Miners"],
         "tags": [],
         "url": "https://skachat.cc/miners/phoenix-miner-5.4b/",
+        "teaser": "https://skachat.cc/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Феникс Майнер Последняя Версия [AMD+NIVIDIA] (2020)",
+        "excerpt":"Phoenix Miner - скачать и настроить программу последней версии для AMD+NVIDIA Где скачать PhoenixMiner Вы можете скачать PhoenixMiner на его официальной странице. Или вы можете выбрать более простой способ и скачать последнюю версию из этого архива. Пароль к архиву - phoenix. Скачать с сайта Скачать с Mega Версия для Linux...","categories": ["Miners"],
+        "tags": [],
+        "url": "https://skachat.cc/miners/phoenix-miner-latest/",
         "teaser": "https://skachat.cc/assets/images/thumbs/500x300.png"
       },]
